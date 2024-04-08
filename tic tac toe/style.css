@@ -1,0 +1,56 @@
+.container {
+    text-align: left;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.board {
+    display: grid;
+    border-radius: 30px;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 7px;
+    border: 4px solid #e60606;
+    width: 320px;
+    height: 320px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #e25980;
+    border: 1px solid #fffdfd;
+    font-size: 48px;
+    display: flex;
+    border-radius: 30px;
+    align-items: centre;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ee94cb;
+}
+
+button {
+    padding: 20px 20px;
+    font-size: 16px;
+    background-color: #edd25c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    font-size: 24px;
+    font-weight: bold;
+    color: #4d359a;
+}
